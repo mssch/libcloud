@@ -969,6 +969,7 @@ class GCENodeDriver(NodeDriver):
     """
     connectionCls = GCEConnection
     api_name = 'google'
+    api_version = API_VERSION
     name = "Google Compute Engine"
     type = Provider.GCE
     website = 'https://cloud.google.com/'
